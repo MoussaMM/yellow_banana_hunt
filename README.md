@@ -2,10 +2,10 @@
 This is the first project of the deep reinforcement learning nano-degree made by udacity.
 * Environment: large, square world with blue and yellow bananas.
 * Agent and its actions: The agent needs to pass through yellow bananas and avoid blue ones to get a good score. The agent has 4 actions 
-- move forward.
-- move backward.
-- turn left.
-- turn right.
+	* move forward.
+	* move backward.
+	* turn left.
+	* turn right.
 * State space: The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. This is a continuous state spac.e 
 * Reward Function: A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
 * Task: The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
